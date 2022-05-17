@@ -1,0 +1,22 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /hello/:pathParam         --> main.main.func1 (3 handlers)
+[GIN-debug] POST   /formTest                 --> main.main.func2 (3 handlers)
+[GIN-debug] GET    /getMap                   --> main.main.func3 (3 handlers)
+[GIN-debug] POST   /uploadFile               --> main.main.func4 (3 handlers)
+[GIN-debug] POST   /uploadMultipleFile       --> main.main.func5 (3 handlers)
+[GIN-debug] POST   /getEmployeeJsonObj       --> main.main.func6 (3 handlers)
+[GIN-debug] GET    /testJpg1                 --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (3 handlers)
+[GIN-debug] HEAD   /testJpg1                 --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (3 handlers)
+[GIN-debug] GET    /testJpg2/*filepath       --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /testJpg2/*filepath       --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /testJpg3                 --> main.main.func7 (3 handlers)
+[GIN-debug] POST   /cakes                    --> main.main.func8 (3 handlers)
+[GIN-debug] POST   /cakesToMap               --> main.main.func9 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
